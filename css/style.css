@@ -1,0 +1,123 @@
+@font-face {
+  font-family: acme;
+  src: url(../../font/Acme/Acme-Regular.ttf);
+}
+
+@font-face {
+  font-family: alata;
+  src: url(../../font/AlataRoboto/Alata/Alata-Regular.ttf);
+}
+
+@font-face {
+  font-family: syne;
+  src: url(../../font/Syne/static/Syne-Medium.ttf);
+}
+
+body {
+  margin: 0px;
+  font-family: syne;
+  color: rgb(54, 53, 53);
+}
+
+header {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rule {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-family: syne;
+  font-size: 22px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.about {
+  width: 70px;
+}
+.works,
+.jobs,
+.contact {
+  width: 60px;
+}
+
+a {
+text-decoration: none;
+  color: rgb(117, 115, 115);
+}
+
+a:hover
+{
+    color: rgb(54, 53, 53);
+    border-bottom: 1px solid rgb(54, 53, 53);
+
+}
+
+hr {
+  background-color: rgb(44, 43, 43);
+  border-bottom: none;
+}
+
+.up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.see {
+  padding: 20px;
+}
+
+.down {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.down-left {
+  background-color: rgb(241, 237, 237);
+  width: 40%;
+}
+
+.down-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+a.button {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a.button:hover{
+    color: rgb(235, 227, 227);
+}
+button {
+  width: 175px;
+  height: 50px;
+  border: 0px;
+  background-color: rgb(39, 38, 38);
+}
+
+.banana {
+  width: 60%;
+}
